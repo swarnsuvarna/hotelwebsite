@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Discription" content="About us" />
+    <meta name="Keywords" content="hotel, surathkal, hospitality" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="css/mobile.css"
+      media="screen and (max-width: 768px)"
+    />
+    <title>About</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <h1 class="logo"><a href="index.html">INCA</a></h1>
+          <ul>
+            <li class=""><a href="index.html">Home</a></li>
+            <li class=""><a href="about.html">About</a></li>
+            <li class="current"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="contact-form" class="py-3">
+      <div class="container">
+        <h1 class="l-heading">Contact us</h1>
+        <p>Please fill out the form below to contact us</p>
+        <form action="process.php">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="name">Message</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </section>
+    <section id="contact-info" class="bg-dark">
+      <div class="container">
+        <div class="box">
+          <i class="fas fa-hotel fa-3x"></i>
+          <h3>Location</h3>
+          <p>Surathkal, Mangalore</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-phone fa-3x"></i>
+          <h3>Phone Number</h3>
+          <p>+91 9148766761</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-envelope fa-3x"></i>
+          <h3>Email</h3>
+          <p>s.swarn619@gmail.com</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <p>INCA &copy; 2019, All Rights Reserved</p>
+    </footer>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/98c60732f2.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
